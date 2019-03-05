@@ -22,8 +22,8 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/password"
         android:importantForAutofill="no"
@@ -66,8 +66,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="88dp"
+        android:layout_height="21dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:text="@string/password"
@@ -92,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="24dp"
         android:autofillHints=""
@@ -101,6 +101,7 @@
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editText6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
@@ -153,60 +154,33 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="29dp"
-        android:layout_marginBottom="22dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/date3332"
         android:inputType="date"
-        app:layout_constraintBottom_toTopOf="@+id/switch2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText8"
         app:layout_constraintVertical_chainStyle="spread_inside" />
 
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="211dp"
-        android:text="@string/switch200"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
-
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="179dp"
-        android:layout_marginBottom="27dp"
-        android:text="@string/checkedtextview300"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch2" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="80dp"
-        android:layout_height="22dp"
+        android:layout_height="17dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
-        android:text="@string/textview100"
+        android:text="email:"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:text="email:" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:text="@string/textview101"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="63dp"
+        android:text="phone"
+        app:layout_constraintEnd_toStartOf="@+id/editText6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         tools:text="Phone" />
@@ -217,7 +191,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
-        android:text="@string/textview102"
+        android:text="Home Addres:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         tools:text="Postal Addres" />
@@ -226,9 +200,9 @@
         android:id="@+id/textView11"
         android:layout_width="65dp"
         android:layout_height="21dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="35dp"
-        android:text="@string/textview103"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/time1234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         tools:text="Time" />
@@ -239,9 +213,28 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="51dp"
-        android:text="@string/textview104"
+        android:text="@string/date3332"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         tools:text="Date" />
+
+    <ScrollView
+        style="@android:style/Widget.ScrollView"
+        android:layout_width="49dp"
+        android:layout_height="744dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" />
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
