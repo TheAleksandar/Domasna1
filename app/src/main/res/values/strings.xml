@@ -13,6 +13,9 @@
     <string name="homeaddres123">homeaddres</string>
     <string name="time1234">time</string>
     <string name="date3332">date</string>
+    <string name="email1">email:</string>
+    <string name="home_addres2">Home Addres:</string>
+    <string name="phone32">phone</string>
 
 
 </resources>
