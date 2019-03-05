@@ -3,7 +3,16 @@
     <string name="last_name">Last Name:</string>
     <string name="name">Name:</string>
     <string name="password">Password:</string>
-
+    <string name="textview100">TextView</string>
+    <string name="textview101">TextView</string>
+    <string name="textview102">TextView</string>
+    <string name="textview103">TextView</string>
+    <string name="textview104">TextView</string>
+    <string name="switch200">Switch</string>
+    <string name="checkedtextview300">CheckedTextView</string>
+    <string name="homeaddres123">homeaddres</string>
+    <string name="time1234">time</string>
+    <string name="date3332">date</string>
 
 
 </resources>

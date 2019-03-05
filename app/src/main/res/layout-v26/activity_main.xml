@@ -93,11 +93,16 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@android:string/defaultVoiceMailAlphaTag"
         android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <EditText
         android:id="@+id/editText6"
@@ -105,8 +110,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="28dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
         android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/editText7"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
@@ -116,7 +127,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="28dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/homeaddres123"
         android:inputType="textPostalAddress"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText6" />
@@ -127,7 +140,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="20dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/time1234"
         android:inputType="time"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText7" />
@@ -139,7 +154,9 @@
         android:layout_marginStart="128dp"
         android:layout_marginTop="29dp"
         android:layout_marginBottom="22dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/date3332"
         android:inputType="date"
         app:layout_constraintBottom_toTopOf="@+id/switch2"
         app:layout_constraintStart_toStartOf="parent"
@@ -153,7 +170,7 @@
         android:layout_marginStart="118dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="211dp"
-        android:text="Switch"
+        android:text="@string/switch200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText9" />
@@ -166,7 +183,7 @@
         android:layout_marginTop="11dp"
         android:layout_marginEnd="179dp"
         android:layout_marginBottom="27dp"
-        android:text="CheckedTextView"
+        android:text="@string/checkedtextview300"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -178,7 +195,7 @@
         android:layout_height="22dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
-        android:text="TextView"
+        android:text="@string/textview100"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:text="email:" />
@@ -189,7 +206,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
-        android:text="TextView"
+        android:text="@string/textview101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         tools:text="Phone" />
@@ -200,7 +217,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
-        android:text="TextView"
+        android:text="@string/textview102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         tools:text="Postal Addres" />
@@ -211,7 +228,7 @@
         android:layout_height="21dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="35dp"
-        android:text="TextView"
+        android:text="@string/textview103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         tools:text="Time" />
@@ -222,7 +239,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="51dp"
-        android:text="TextView"
+        android:text="@string/textview104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         tools:text="Date" />
